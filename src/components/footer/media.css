@@ -1,0 +1,102 @@
+@media (max-width: 900px) {
+    .footer__title {
+        font-size: 38px;
+    }
+
+    .footer__form_email {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .footer__input-email {
+        padding: 15px;
+        width: 60%;
+        height: 60px;
+    }
+
+    .confidential__checkbox {
+        width: 18px;
+        height: 18px;
+    }
+
+    .confidential__link {
+        font-size: 14px;
+    }
+
+    .footer__icons {
+        margin-top: 50px;
+    }
+
+    .footer__icons>img {
+        width: 50px;
+    }
+
+    .footer__link {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+}
+
+/* ? --------------------- 700px ------------------ */
+
+@media (max-width: 700px) {
+    .footer__title {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .footer__form_email {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .footer__input-email {
+        position: static;
+        left: 15%;
+        padding: 15px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        height: 50px;
+    }
+
+    .footer__btn_email {
+        position: absolute;
+        width: 130px;
+        height: 40px;
+        right: 35px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        padding: 0;
+    }
+}
+
+/* ? --------------------- 540px ------------------ */
+
+@media (max-width: 540px) {
+
+    .confidential__checkbox {
+        margin-right: 5px;
+    }
+
+    .confidential__link {
+        width: 80%;
+    }
+
+    .footer__icons {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .footer__icons>img {
+        width: 10%;
+        margin: 0 10px;
+    }
+}
